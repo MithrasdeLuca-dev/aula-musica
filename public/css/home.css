@@ -1,0 +1,350 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("/images/fundocor6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 80%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Work sans', sans-serif;
+}
+
+.template-how {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.template-how h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 3vw;
+  opacity: 0.8;
+}
+
+.template-how p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.8vw;
+  opacity: 0.7;
+}
+
+.how-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.how-3 iframe {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.corpo-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Work sans', sans-serif;
+}
+
+.how-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.how-4 h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 3vw;
+  opacity: 0.8;
+}
+
+.how-4 p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.8vw;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.how-4 a {
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 1.5vw;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: inherit;
+
+
+  color: rgba(240, 248, 255, 0.925);
+  border: 1px solid #3698d1;
+  background-color: none;
+  box-shadow: inset 0 0 32px #3698d1;
+  text-decoration: none;
+
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.how-4 a:hover {
+  background-color: none;
+  box-shadow: inset 0 0 35px #3698d1, 0 0 35px #3698d1;
+  padding: 1.8vw;
+}
+
+.corpo-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Work sans', sans-serif;
+}
+
+.convite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-logo img {
+  max-width: 90%;
+}
+
+.sobre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.sobre h1 {
+  text-align: center;
+  font-size: 3vw;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+.sobre p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.8vw;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.corpo-4 {
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Work sans', sans-serif;
+}
+
+.how-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+}
+
+.how-5 h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 3vw;
+  opacity: 0.8;
+}
+
+.objetivos-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lista-objetivos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5px;
+}
+
+.objetivos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border: 2px solid #3698d183;
+  border-radius: 20px;
+  color: aliceblue;
+  height: 100%;
+  width: 80%;
+}
+
+.card-img {
+  max-width: 20%;
+}
+
+.objetivos h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 2vw;
+  opacity: 0.8;
+}
+
+.objetivos p {
+  text-align: center;
+  margin: 10px;
+  color: aliceblue;
+  font-size: 1.2vw;
+  opacity: 0.6;
+  line-height: 1.5;
+  margin: 15px;
+}
+
+.how-5 a {
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 1.5vw;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: inherit;
+
+
+  color: rgba(240, 248, 255, 0.925);
+  border: 1px solid#3698d1;
+  background-color: none;
+  box-shadow: inset 0 0 32px#3698d1;
+  text-decoration: none;
+
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.how-5 a:hover {
+  background-color: none;
+  box-shadow: inset 0 0 30px #3698d1, 0 0 30px#3698d1;
+  padding: 1.8vw;
+}
+
+.corpo-5{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Work sans', sans-serif;
+}
+
+.titulo{
+  width: 80%;
+}
+
+.titulo h1{
+  color: aliceblue;
+  font-size: 2.5vw;
+  text-align: start;
+  opacity: 0.9;
+}
+
+.vantagens{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.vantagens p{
+  text-align:initial;
+  font-size: 1.5vw;
+  color: aliceblue;
+  width: 80%;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+.vantagens h2{
+  font-size: 2.5vw;
+  color: aliceblue;
+  text-align: start;
+  opacity: 0.8;
+}
+
+.vantagem-img{
+  display: flex;
+  align-items: center;
+  width:  50%;
+}
+
+.vantagem-img img{
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.vantagem-1{
+  display: flex;
+  align-items: center;
+}
+
+.vantagem-2{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
+
+.vantagem-3{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+
+/* color: rgb(144, 65, 179); */

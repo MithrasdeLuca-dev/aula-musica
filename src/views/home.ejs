@@ -1,11 +1,164 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='css' href='/css/style.css' />
-  </head>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<%- include('./partials/header')%>
+
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <section class="home">
+
+      <section class="corpo-1">
+        <div class="template">
+          <div class="template-how">
+            <h1>Seja aqui a sua melhor versão</h1>
+            <p id="how-2">
+              Tenha liberdade para trilhar
+              seus estudos com os melhores
+              cursos da nossa plataforma.
+            </p>
+          </div>
+
+          <div class="how-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iQIW_OR6CC8"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="corpo-2">
+        <div class="how-4">
+          <h1>Para quem é a Study?</h1>
+          <p>
+            A Study é para todos que buscam a inserção no mercado de trabalho,
+            com cursos profissionalizantes e desenvolvidos para disponibilizar
+            maior acessebilidade a todos os níveis de aprendizado.
+          </p>
+          <a href="/cadastro">Venha fazer parte dessa jornada</a>
+        </div>
+      </section>
+
+      <section class="corpo-3">
+        <div class="convite">
+          <div class="card-logo">
+            <img src="/images/marketing.png" alt="">
+          </div>
+        </div>
+
+        <div class="sobre">
+          <h1>Um método de ensino voltado para a transformação do futuro</h1>
+          <p>
+            Nós acreditamos que, o entusiasmo no ensino é desenvolvido
+            com a atenção de profissionais sobre os alunos através da aplicabilidade.
+            Dessa forma, a nossa plataforma conta com mentorias 24h, materiais complementares,
+            práticas reais voltadas ao crescimento do aluno para que você saia confiante a traçar a sua jornada
+          </p>
+        </div>
+      </section>
+
+      <section class="corpo-4">
+        <div class="how-5">
+          <h1>Nossos objetivos</h1>
+
+          <div class="objetivos-container">
+            <div class="lista-objetivos">
+              <div class="objetivos">
+                <h1>Novos profissionais</h1>
+                <img class="card-img" src="/icons/profissional.png" alt="">
+                <p>
+                  Construindo um novo futuro com as áreas de trabalho mais procuradas
+                </p>
+              </div>
+            </div>
+
+            <div class="lista-objetivos">
+              <div class="objetivos">
+                <h1>Networking</h1>
+                <img class="card-img" src="/icons/networking.png" alt="">
+                <p>
+                  Conecte com alunos e professores de todos os cursos
+                </p>
+              </div>
+            </div>
+
+            <div class="lista-objetivos">
+              <div class="objetivos">
+                <h1>Especialização</h1>
+                <img class="card-img" src="/icons/certificado.png" alt="">
+                <p>
+                  Esteja preparado para o mercado de trabalho, com profissionais capacitados,
+                  conteúdos atualizados e mentorias 24h
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <a href="/cursos"> Quero saber mais sobre os cursos </a>
+        </div>
+      </section>
+
+      <section class="corpo-5">
+
+        <h1>Nossos diferenciais</h1>
+
+        <div class="vantagem-1">
+          <div class="vantagens">
+            <div class="titulo">
+              <h2>Estude de onde quiser</h2>
+            </div>
+            <p>
+              A modalidade do Ensino a Distância Ead proporciona liberdade geografica
+            </p>
+          </div>
+          <div class="vantagem-img">
+            <img src="/images/estudante3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="vantagem-2">
+          <div class="vantagens">
+            <div class="titulo">
+              <h2>Plataforma de ensino</h2>
+            </div>
+            <p>
+              Total controle sobre os seus estudos acompahando a evolução em tempo real.
+              navegação simplificada interface intuitiva em varios dispositivos.
+
+            </p>
+          </div>
+          <div class="vantagem-img">
+            <img src="/images/estudante4.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="vantagem-3">
+          <div class="vantagens">
+            <div class="titulo">
+              <h2>Certificação </h2>
+            </div>
+            <p>
+              Após a conclusão dos cursos você recebe um certificado
+              com validade de horas complementares. 
+            </p>
+          </div>
+          <div class="vantagem-img">
+            <img src="/images/estudante1.jpg" alt="">
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
   </body>
+  <%- include('./partials/footer') %>
+
 </html>
