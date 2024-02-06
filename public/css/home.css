@@ -281,6 +281,13 @@ body {
   font-family: 'Work sans', sans-serif;
 }
 
+.corpo-5 h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 2vw;
+  opacity: 0.8;
+}
+
 .titulo{
   width: 80%;
 }
